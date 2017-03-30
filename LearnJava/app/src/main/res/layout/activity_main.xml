@@ -1,0 +1,84 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#B388FF"
+    android:orientation="vertical"
+
+    >
+
+    <ImageView
+        android:id="@+id/android_cookie_image_view"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:scaleType="centerCrop"
+        android:src="@drawable/before_cookie" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#2196F3"
+       >
+
+        <TextView
+            android:id="@+id/status_text_view"
+            android:layout_width="205dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="100dp"
+            android:layout_marginTop="16dp"
+            android:text="I'm  hungry"
+            android:textColor="@android:color/white"
+            android:textSize="34sp" />
+
+
+        <TextView
+            android:id="@+id/like_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="4dp"
+            android:layout_marginTop="16dp"
+            android:text="    0"
+            android:textColor="#FFFFFF"
+            android:textSize="34sp"
+
+            />
+    </LinearLayout>
+
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#2196F3">
+    <Button
+        android:id="@+id/eat_cookies"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_margin="16dp"
+        android:text="EAT COOKIE"
+        android:onClick="eatCookie"
+        android:background="#BDBDBD"/>
+
+    <Button
+
+        android:text="Reset"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_margin="16dp"
+        android:id="@+id/Reset"
+        android:onClick="reset"
+        android:background="#BDBDBD"/>
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_margin="16dp"
+        android:text="Likes"
+        android:background="#BDBDBD"
+        android:onClick="like"/>
+
+</LinearLayout>
+
+</LinearLayout>
