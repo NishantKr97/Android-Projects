@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical"
+    tools:context="com.example.android.hinglish.MainActivity">
+
+    <Button
+        android:id="@+id/numbers"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#EF5350"
+        android:text="Numbers"
+        android:layout_weight="1"
+        android:onClick="open_another_activity1" />
+
+    <Button
+        android:id="@+id/family"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#9CCC65"
+        android:text="Family"
+        android:layout_weight="1"
+        android:onClick="open_another_activity2"/>
+
+    <Button
+        android:id="@+id/colors"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#7E57C2"
+        android:text="Colors"
+        android:layout_weight="1"
+        android:onClick="open_another_activity3"/>
+
+    <Button
+        android:id="@+id/phrases"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#42A5F5"
+        android:text="Phrases"
+        android:layout_weight="1"
+        android:onClick="open_another_activity4"/>
+
+</LinearLayout>
